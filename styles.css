@@ -28,3 +28,8 @@ div[style*="margin: 16px 0"] {
     max-width: 600px;
     margin: 0 auto;
 }
+.outer {
+    Margin: 0 auto; // avoid Yahoo! to strip it out
+    width: 100%;
+    max-width: 600px;
+}
