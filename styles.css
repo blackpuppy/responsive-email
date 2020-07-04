@@ -28,16 +28,19 @@ div[style*="margin: 16px 0"] {
     max-width: 600px;
     margin: 0 auto;
 }
+
 .outer {
     Margin: 0 auto; // avoid Yahoo! to strip it out
     width: 100%;
     max-width: 600px;
 }
+
 .full-width-image img {
     width: 100%;
     max-width: 600px;
     height: auto;
 }
+
 .inner {
 padding: 10px;
 }
@@ -66,4 +69,31 @@ a {
 .one-column p {
     font-size: 14px;
     Margin-bottom: 10px;
+}
+
+/*Two column layout*/
+.two-column {
+    text-align: center;
+    font-size: 0;
+}
+.two-column .column {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.contents {
+    width: 100%;
+}
+.two-column .contents {
+font-size: 14px;
+    text-align: left;
+}
+.two-column img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+}
+.two-column .text {
+    padding-top: 10px;
 }
