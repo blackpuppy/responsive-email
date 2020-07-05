@@ -5,4 +5,4 @@
 
 ## Reference
 
-- [inliner.cm](http://inliner.cm/) Campaign Monitor’s inliner tool, which also inlines styles onto conditional tables
+- [inliner.cm](http://inliner.cm/) Campaign Monitor’s inliner tool, which also inlines styles onto conditional tables, and supports multiple classes.
